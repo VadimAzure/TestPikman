@@ -1,0 +1,1049 @@
+@font-face {
+    font-family: Suisse;  src: url('../fonts/SuisseIntl-Regular.otf'); src: url('../fonts/SuisseIntl-Regular.otf') format('otf'),
+   }
+:root {
+    --color: #EB016E;
+    --backColor: #F4F4F4;
+    --backBlack: #202E35;
+  }
+body{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    background: #E5E5E5;
+    font-family: Suisse;
+}
+section {
+    padding: 50px 0 80px;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+    background-color: transparent;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    z-index: 1005;
+    color: #000;
+    font-size: 18px;
+    line-height: 20px;
+}
+header hr{
+    margin-top: 5px;
+    background: #000;
+    opacity: 0.1;
+  }
+.c {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1170px;
+}
+header nav {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    height: calc(120px / 2);
+}
+header nav .nav_right, header nav .nav_left, .left, .right {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+}
+header nav .logo, header nav .logo_a {
+    height: 15px;
+}
+header nav .nav_links {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+}
+header nav .nav_links.top_op {
+    opacity: 0.5;
+}
+header nav .nav_links.top_op .nav_link{
+    margin-left: 20px;
+    margin-right: 0;
+}
+header nav .nav_links .nav_link {
+    margin-right: 20px;
+}
+header nav .nav_tele {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+button {
+    border: 1px solid var(--color);
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: var(--color);
+    padding: 7px 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+section.main_back {
+    height: 70vh;
+    background: #D5EEEB;
+}
+section .main_back_block {
+    position: relative;
+    z-index: 10;
+    color: #000;
+    width: 500px;
+}
+section .main_back_block h1{
+    color: #202E35;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    font-weight: normal;
+    margin: 0;
+    padding: 5rem 0 30px;
+}
+section .main_back_block button {
+    border: 1px solid #202E35;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #202E35;
+}
+section.main_back .svgMain {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+section.main_back .svgMain svg{
+    width:715px; 
+    height:412px;
+}
+section.flex_c {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: -15%;
+}
+section.mainBlock .flexBox {
+    padding: 10px 20px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    width: 325px;
+    height: 380px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.flexBox h2 {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+}
+section.mainBlock .flexBox .box {
+    position: relative;
+    top: -15px;
+}
+
+section.mainBlock .flexBox h3 {
+    font-size: 20px;
+}
+section.mainBlock .flexBox p {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 3rem;
+    color: #000;
+    opacity: 0.4;
+}
+section.mainBlock .flexBox a {
+    position: absolute;
+    bottom: -20px;
+}
+section.mainBlock .flexBox .box .boxSvg svg {
+    width:150px; 
+    height:180px;
+}
+.main_title{
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    color: #000000;
+}
+.main_title h1{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.flexBox2 {
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.flexBox2 .box {
+    width: 176px;
+    height: 85px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.flexBox2 p {
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 15px;
+    color: #000;
+    opacity: 0.4;
+}
+.flexBox2 .box .boxSvg svg {
+    width:50px; 
+    height:50px;
+}
+.nav_carousel {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    height: calc(120px / 2);
+}
+.nav_carousel .number {
+    font-size: 16px;
+    line-height: 24px;
+}
+.nav_carousel .number .active  {
+    color: var(--color);
+    margin-right: 10px;
+}
+.nav_carousel svg.right {
+    margin-right: 30px;
+}
+section.mainProjekt {
+    background: var(--backBlack);
+}
+section.ourProf .main_title, section.mainProjekt .main_title, section.newsBlock .main_title{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+}
+section.ourProf .main_title h1, section.ourProf .main_title a, section.mainProjekt .main_title h1, section.mainProjekt .main_title a, section.newsBlock .main_title h1, section.newsBlock .main_title a{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+}
+section.mainProjekt .main_title h1, section.newsBlock .main_title h1 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+section.ourProf .main_title a, section.mainProjekt .main_title a, section.newsBlock .main_title a{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+section.ourProf .main_title a{
+    color: #000;
+}
+section.mainProjekt .projektFlex .widthLeft {
+    width: 40%;
+    margin-top: -3rem;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+section.mainProjekt .projektFlex .widthLeft h2{
+    font-size: 30px;
+    line-height: 40px; 
+    color: #FFFFFF;
+    font-weight: normal;
+}
+section.mainProjekt .projektFlex .widthLeft p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #FFFFFF;   
+    opacity: 0.5;
+}
+section.mainProjekt .projektFlex .widthRight {
+    width: 50%;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+section.mainProjekt .projektFlex svg {
+    width:100px; 
+    height:50px;
+}
+section.mainProjekt .projektFlex {
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+}
+section.mainProjekt .projektFlex .flexBox {
+    padding: 10px;
+    margin: 15px 0px 15px 15px;
+    display: inline-flex;
+    width: 160px;
+    height: 100px;
+    background: transparent;
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+section.mainProjekt .projektFlex .flexBox .box {
+    padding: 15px;
+}
+section.mainProjekt .projektFlex .flexBox.active {
+    background: var(--color);
+    color: #FFFFFF;
+    opacity: 1;
+}
+section.pressBlock {
+    background: #FFFFFF;
+}
+section.pressBlock .flexBox{
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+section.pressBlock .flexBox .box{
+    position: relative;
+    width: 210px;
+    height: 240px;
+    background: var(--backColor);
+    padding: 30px;
+}
+section.pressBlock .flexBox span {
+    font-size: 16px;
+    line-height: 24px; 
+    opacity: 0.5;
+}
+section.pressBlock .flexBox p {
+    font-size: 16px;
+    line-height: 24px;
+}
+section.pressBlock .flexBox .boxSvg {
+    position: absolute;
+    bottom: 20px;
+}
+section.trophBlock .gridBox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+}
+section.trophBlock .gridBox .box h1 {
+    font-size: 40px;
+    line-height: 50px; 
+    letter-spacing: -2px;
+    margin: 0;
+    color: var(--color)
+}
+section.trophBlock .gridBox .box p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;  
+    opacity: 0.7;
+}
+section.newsBlock {
+    background: #FFFFFF;
+}
+section.newsBlock .main_title h1, section.newsBlock .main_title a {
+    color: #000000;
+}
+section.newsBlock .main_title a {
+    font-weight: bold;
+}
+section.newsBlock .gridBox {
+    display: grid;
+    grid-template-columns: 530px auto auto;
+    grid-gap: 50px;
+}
+section.newsBlock .gridBox .box {
+    position: relative;
+    height: 280px;
+    background: var(--backColor);
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 7px 0px 0px var(--color);
+    -moz-box-shadow: 0px 7px 0px 0px var(--color);
+    box-shadow: 0px 7px 0px 0px var(--color);
+}
+section.newsBlock .gridBox .box span {
+    font-size: 16px;
+    line-height: 24px; 
+    opacity: 0.5;
+}
+section.newsBlock .gridBox .box p {
+    font-size: 18px;
+    line-height: 26px;
+}
+section.newsBlock .gridBox .box a {
+    position: absolute;
+    bottom: 20px;
+}
+section.contactBlock {
+    background: var(--backBlack);
+}
+section.contactBlock .gridBox {
+    display: grid;
+    grid-template-columns: 43% 55%;
+    grid-gap: 50px;
+}
+section.contactBlock .gridBox h1{
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+section.contactBlock .gridBox p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;  
+    opacity: 0.4;
+}
+section.contactBlock .boxContact {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+section.contactBlock .contactForm .form-field {
+    position: relative;
+    width: 50%;
+    margin: 32px 0;
+    padding: 0 20px;
+    float: left;
+    box-sizing: border-box;
+}
+section.contactBlock .contactForm .form-field.form-full {
+    width: 100%; 
+}
+section.contactBlock .contactForm .input-text {
+    display: block;
+    background: transparent;
+    color: #FFFFFF;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #FFFFFF;
+    opacity: 0.4;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+section.contactBlock .contactForm .input-text:focus {
+    outline: none;
+}
+section.contactBlock .contactForm .input-text:focus + .label, .contactForm .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+section.contactBlock .contactForm .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.4;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+section.contactBlock .contactForm .form-field.copyright {
+    width: 60%;
+    float: left;
+  }
+section.contactBlock .contactForm .form-field.submit {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+section.contactBlock .contactForm span {
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+section.contactBlock .contactForm .submit-btn {
+    display: inline-block;
+    background-color: var(--color);
+    color: #fff;
+    border: 1px solid var(--color);
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 290px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1005;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    background: #05151D;
+  }
+footer hr{
+    margin-top: 50px;
+    background: #FFFFFF;
+    opacity: 0.1;
+  }
+  footer .navBox svg {
+    width: 250px;
+}
+footer .navFooter{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+  footer nav {
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    height: calc(120px / 2);
+}
+footer nav .navBox {
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    align-items: center;
+}
+footer nav .navBox.navGoriz {
+    flex-direction: column;
+    align-items: start;
+}
+footer nav .navBox p, footer nav .navBox a {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px; 
+    color: #FFFFFF;
+}
+footer nav .navBox p.second{
+    margin: 50px 0 0;
+}
+footer nav .navBox a.second{
+    margin: 10px 0 0;
+}
+footer nav .logo, footer nav .logo_a {
+    height: 15px;
+}
+footer nav .gridBox {
+    display: grid;
+    grid-template-columns: 200px 290px;
+    grid-gap: 80px;
+}
+a:hover, footer nav .navBox a:hover, section.newsBlock .main_title a:hover, section.mainProjekt .main_title a:hover {
+    color: var(--color);
+    opacity: 1;
+    transition: .2s;
+}
+section.mainBlock .flexBox:hover, .flexBox2 .box:hover, section.pressBlock .flexBox .box:hover, section.newsBlock .gridBox .box:hover, button:hover {
+    background: var(--color);   
+    transition: .2s;
+}
+section.mainBlock .flexBox:hover, section.mainBlock .flexBox:hover p, .flexBox2 .box:hover p, section.pressBlock .flexBox .box:hover p, section.pressBlock .flexBox .box:hover span, section.newsBlock .gridBox .box:hover, button:hover {
+    color: #FFFFFF;  
+    transition: .2s;
+    opacity: 1;
+}
+section .main_back_block button:hover {
+    border: 1px solid var(--color);
+    background: var(--color);   
+    transition: .2s;
+}
+section.mainProjekt .projektFlex .flexBox:hover {
+    border: 1px solid var(--color);
+    opacity: 1;
+    transition: .2s;
+}
+section.ourProf .main_title a:hover {
+    color: var(--color);
+}
+
+.owl-nav {
+    position: absolute;
+    right: 0;
+    bottom: -65px;
+}
+.owl-nav .owl-prev {
+    margin-right: 20px;
+}
+.owl-nav button{
+    font-size: 40px !important;
+}
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    font-size: 40px !important;
+}
+section.newsBlock a button {
+    display: none;
+}
+header nav.mobile {
+    display: none;
+}
+
+
+
+.header-nav-mobile {
+    min-height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header-logo {
+    align-self: center;
+    width: 50%;
+  }
+  .header-logo-link {
+    align-self: center;
+    padding: 0;
+  }
+  .header-logo-link:hover,
+  .header-logo-link:focus {
+    color: #FFCDD2;
+  }
+  .header-toggle {
+    display: none;
+  }
+  .header-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    transition: all 0.5s;
+  }
+  .header-nav-item {
+    align-self: stretch;
+    padding: 0 10px;
+    display: flex;
+    border-bottom: 1px solid #00000026;
+    margin: 0;
+  }
+  .header-nav-item-link {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .first .header-nav-item-link {
+    opacity: 0.4;
+    font-weight: normal;
+  }
+
+
+  @media only screen and (max-width: 776px) {
+    .header-mobile {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 10px;
+    }
+    .header-mobile svg.phone {
+        position: absolute;
+        margin-top: 4%;
+        right: 20%;
+    }
+    .header-logo {
+      padding: 5px 20px;
+    }
+    .header-toggle {
+      display: flex;
+      flex-direction: column;
+      margin: 3px 5px;
+      width: 40px;
+      padding: 8px;
+    }
+    .header-toggle-bar {
+        width: 20px;
+        min-height: 3px;
+        background-color: #000;
+        margin: 2px 5px;
+    }
+    .header-nav {
+      opacity: 0;
+      height: 0px;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      transition: all 0.5s;
+    }
+    .header-nav.is-mobile-open {
+        opacity: 1;
+        width: 100%;
+        height: auto;
+    }
+    .header-nav.is-mobile-open > .header-nav-item {
+      display: flex;
+    }
+    .header-nav-item {
+      background-color: #fff;
+      padding: 20px 20px;
+      display: none;
+      width: auto;
+    }
+    .header-nav.is-mobile-open > .header-nav-item.contact-block {
+        display: block;
+
+    }
+    .header-nav-item.contact-block {
+        background-color: #F4F4F4;
+    }
+    .header-nav-contact {
+        padding: 30px 0; 
+        border-bottom: 1px solid #00000026;
+    }
+    .header-nav-contact span {
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 15px;
+    }
+    .header-nav-contact span.info {
+        line-height: 30px;
+    }
+    .header-nav-contact a{
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        opacity: 0.4;
+    }
+  }
+  
+  @media only screen and (max-width: 776px) {
+    header nav.nav_c {
+        display: none;
+    }
+    header hr {
+        display: none;
+    }
+    header nav.mobile {
+        display: block;
+    }
+    header {
+        height: auto;
+    }
+    header nav .nav_left {
+        height: 50px;
+    }
+    .c {
+        width: 90%;
+    }
+    section .main_back_block {
+        width: 90%;
+        padding: 50px 20px;
+        margin-top: 55%;
+    }
+    section .main_back_block h1 {
+        font-size: 35px;
+        line-height: 35px;
+        letter-spacing: 0px;
+        margin: 0;
+        padding: 0 0 30px;
+    }
+    section .main_back_block button {
+        width: 100%;
+        padding: 20px 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    section.main_back .svgMain {
+        top: 30px;
+        right: 0;
+        left: 0;
+    }
+    section.main_back .svgMain svg {
+        width: 100%;
+    }
+    section.flex_c {
+        margin-top: -100px;
+    }
+    section.mainBlock .flexBox {
+        margin-bottom: 20px;
+        width: 100%;
+        height: 135px;
+    }
+    section.mainBlock .flexBox .box .boxSvg{
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    section.mainBlock .flexBox .box {
+        position: relative;
+        top: 5px;
+    }
+    section.mainBlock .flexBox .box .boxSvg svg {
+        width: 100px;
+        height: 100px;
+    }
+    section.mainBlock .flexBox p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 60%;
+    }
+    section.mainBlock .flexBox a {
+        display: none;
+    }
+    section.mainBlock .flexBox h3 {
+        width: 60%;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    section.ourProf .main_title a {
+        display: none;
+    }
+    .main_title h1 {
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0;
+        width: 50%;
+    }
+    .flexBox2 .box {
+        width: 120px;
+        height: 75px;
+
+    }
+    .flexBox2 .box .boxSvg svg {
+        width: 40px;
+        height: 40px;
+    }
+    section.mainProjekt .projektFlex {
+        display: block;
+    }
+    section.mainProjekt .projektFlex .widthLeft {
+        width: 100%;
+        margin-top: 0;
+    }
+    section.mainProjekt .projektFlex .widthRight {
+        width: 100%;
+        display: block;
+    }
+    section.mainProjekt .projektFlex .flexBox {
+        width: 100px;
+        height: 70px;
+    }
+    section.mainProjekt .projektFlex .flexBox .box {
+        padding: 5px;
+    }
+    section.mainProjekt .projektFlex svg {
+        width: 65px;
+        height: 35px;
+    }
+    section.mainProjekt .main_title h1, section.newsBlock .main_title h1 {
+        font-size: 26px;
+        line-height: 30px;
+        width: 70%;
+    }
+    section.mainProjekt .projektFlex .widthLeft h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    section.ourProf .main_title a, section.mainProjekt .main_title a, section.newsBlock .main_title a {
+        display: none;
+    }
+    section.mainProjekt .projektFlex .widthLeft p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 50px;
+    }
+    section.pressBlock .flexBox {
+        display: inline-flex;
+    }
+    section.pressBlock .flexBox .box {
+        width: 230px;
+        height: 250px;
+        margin-right: 20px;
+    }
+    section.trophBlock .gridBox, section.newsBlock .gridBox {
+        display: block;
+    }
+    section.newsBlock .gridBox .box {
+        height: 190px;
+        margin-bottom: 25px;
+    }
+    section.newsBlock a button {
+        width: 100%;
+        display: block;
+        font-size: 25px;
+    }
+    section.contactBlock {
+        height: 100%;
+        padding: 50px 0 0;
+    }
+    section.contactBlock .gridBox {
+        display: block;
+    }
+    section.contactBlock .gridBox .box h1{
+        padding: 0 20px;
+    }
+    section.contactBlock .gridBox p {
+        display: none;
+    }
+    section.contactBlock .contactForm .form-field, section.contactBlock .contactForm .submit-btn {
+        width: 100%;
+    }
+    section.contactBlock .contactForm .form-field.copyright {
+        width: 100%;
+    }
+    section.contactBlock .contactForm .form-field.submit {
+        width: 100%;
+    }
+    footer .navFooter, footer nav .gridBox {
+        display: block;
+    }
+    footer,  footer nav{
+        height: auto;
+    }footer nav .navBox {
+        display: block;
+        margin-bottom: 20px;
+    }
+    footer .navBox svg {
+        width: 100%;
+    }
+    footer hr {
+        margin-top: 0px;
+    }
+    footer nav .gridBox p {
+        opacity: 0.4;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    section.flex_c {
+        margin-top: -50px;
+    }
+    section.contactBlock {
+        height: 760px;
+        padding: 50px 0 0;
+    }
+    section.contactBlock .gridBox h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .flexBox2 .box {
+        width: 160px;
+        height: 75px;
+    }
+    section.mainProjekt .projektFlex svg {
+        width: 100px;
+        height: 50px;
+    }
+    section.mainProjekt .projektFlex .flexBox {
+        width: 140px;
+        height: 85px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .flexBox2 .box {
+        width: 135px;
+        height: 60px;
+    }
+section.mainProjekt .projektFlex .flexBox {
+    width: 125px;
+    height: 80px;
+}
+.main_title h1 {
+    width: 90%;
+}
+}
