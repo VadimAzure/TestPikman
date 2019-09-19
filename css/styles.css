@@ -130,11 +130,14 @@ section .main_back_block {
 section .main_back_block h1{
     color: #202E35;
     font-size: 60px;
-    line-height: 60px;
+    line-height: 70px;
     letter-spacing: -2px;
     font-weight: normal;
     margin: 0;
     padding: 5rem 0 30px;
+}
+section .main_back_block h1 span{
+    font-weight: bold;
 }
 section .main_back_block button {
     border: 1px solid #202E35;
@@ -732,8 +735,7 @@ header nav.mobile {
     font-weight: normal;
   }
 
-
-  @media only screen and (max-width: 776px) {
+  @media only screen and (max-width: 768px) {
     .header-mobile {
       display: flex;
       flex-direction: row;
@@ -811,7 +813,7 @@ header nav.mobile {
     }
   }
   
-  @media only screen and (max-width: 776px) {
+  @media only screen and (max-width: 768px) {
     header nav.nav_c {
         display: none;
     }
@@ -837,7 +839,7 @@ header nav.mobile {
     }
     section .main_back_block h1 {
         font-size: 35px;
-        line-height: 35px;
+        line-height: 45px;
         letter-spacing: 0px;
         margin: 0;
         padding: 0 0 30px;
@@ -1009,6 +1011,7 @@ header nav.mobile {
     }
 }
 
+
 @media only screen and (max-width: 375px){
     section.flex_c {
         margin-top: -50px;
@@ -1047,3 +1050,83 @@ section.mainProjekt .projektFlex .flexBox {
     width: 90%;
 }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-mobile svg.phone {
+        margin-top: 2%;
+        right: 10%;
+    }
+    section.main_back .svgMain {
+        top: 85px;
+    }
+    section .main_back_block {
+        margin-top: 50%;
+    }
+    section .main_back_block h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    section .main_back_block button {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    section.mainBlock .flexBox h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    section.mainBlock .flexBox p {
+        font-size: 20px;
+        line-height: 30px;
+        width: 90%;
+    }
+    section.mainBlock .flexBox .box .boxSvg {
+        top: 20px;
+    }
+    .flexBox2 .box {
+        width: 175px;
+    }
+    .flexBox2 .box .boxSvg svg {
+        width: 60px;
+        height: 60px;
+    }
+    .flexBox2 p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    section.mainProjekt .projektFlex .widthLeft h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    section.mainProjekt .projektFlex .widthLeft p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    section.mainProjekt .projektFlex .flexBox {
+        width: 135px;
+        height: 85px;
+    }
+    section.mainProjekt .projektFlex svg {
+        width: 100px;
+        height: 50px;
+    }
+    section.mainProjekt .projektFlex .widthLeft p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    section.contactBlock .contactForm span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    section.contactBlock .contactForm .submit-btn {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px 60px;
+    }
+    footer .navBox svg {
+        width: 50%;
+    }
+    footer nav .navBox p, footer nav .navBox a {
+        font-size: 20px;
+        line-height: 30px;
+    }
+  }
