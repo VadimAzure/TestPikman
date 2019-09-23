@@ -1228,3 +1228,10 @@ section .main_back_block {
         margin-top: 0%;
     }
 }
+
+.Heiniken, .Lerov, .PAK, .Yandex, .Mis, .Correas {
+    display: none;
+}
+.Heiniken.active, .Lerov.active, .PAK.active, .Yandex.active, .Mis.active, .Correas.active {
+    display: block;
+}
