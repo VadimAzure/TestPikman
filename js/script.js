@@ -23,19 +23,22 @@ document.addEventListener('click', function (e) {
 $(document).ready(function() {
     $(".flexbox").click(function() {
         var massive = ['Heiniken','Lerov','Mis','Yandex','Correas','PAK']
-        var id = this.id;
-        console.log(id);    
+        var id = this.id; 
         for (i = 0; i < massive.length; i++)
         {
             var mas = massive[i];
             if(mas == id)
             {
                 var classId = "."+id;
+                var IDid = "#"+id;
                 $( ".widthLeft" ).find( classId ).addClass('active');
+                $( IDid ).addClass('active');
             }
             else if(mas != id){
                 var classId = "."+mas;
+                var IDid = "#"+mas;
                 $( ".widthLeft" ).find( classId ).removeClass('active');
+                $( IDid ).removeClass('active');
             }
         }
     });
